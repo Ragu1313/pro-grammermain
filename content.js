@@ -32,7 +32,7 @@ async function getGeminiResponse(prompt) {
 
 // Function to handle button click
 function askGemini(textString) {
-    const userInput = "Correct the grammatical errors given below. Don't change anything not based on grammatical error" + textString;
+    const userInput = "Correct the grammatical errors given below. Don't explain anything  "+ textString;
     const responseText = document.getElementById('add-input');
 
     if (userInput.trim() === '') {
